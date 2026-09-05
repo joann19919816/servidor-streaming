@@ -1,0 +1,19 @@
+{
+  "name": "klarbite",
+  "version": "1.0.0",
+  "description": "Pequeñas mejoras visuales y microinteracciones aplicadas al proyecto.",
+  "main": "login.js",
+  "scripts": {
+    "start": "node signal-server.js",
+    "signal": "node signal-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
